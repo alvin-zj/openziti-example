@@ -1,0 +1,13 @@
+logging:
+  level:
+    org.openziti: WARN
+server:
+  port: 8080
+# OpenZiti config
+openziti:
+  identity:
+    path: classpath:ziti/identity.json
+  service:
+    name: spring-boot-service
+
+  # Spring Boot service config
